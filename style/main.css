@@ -187,9 +187,18 @@ main .feeds article #text .like p img{
 main .feeds article #text .inside p span{
     margin-right:10px;
 }
-main .feeds article #text .inside p:last-child{
+main .feeds article #text .inside p.time{
     font-size:11px;color:#aaa;
 }
+main .feeds article #text .inside .com_txt_block p{
+    margin-bottom:3px;
+}
+
+main .feeds article #text .inside .com_txt_block p span{
+    font-weight:bold;margin-right:10px;
+}
+
+
 main .feeds article .comment{
     width:100%;height:60px;
     border-top:1px solid #dedad6;
@@ -206,7 +215,9 @@ main .feeds article .comment button{
 }
 
 
-/* main right */
+
+
+/*  ----main right----    */
 
 
 main  .main-right{
@@ -236,6 +247,7 @@ main .main-right .right-profile .pro_txt div{
 main .main-right .right-profile .pro_txt div:last-child{
     font-size:12px;color:#aaa;
 }
+
 /* right story,push 공통 */
 main  .main-right .right-wrap{
     width:100%;
@@ -255,6 +267,8 @@ main  .main-right .right-wrap .right-top p{
 main  .main-right .right-wrap .story-scroll{
    width:100%; height:181px; overflow-y:scroll;
 }
+
+
 /* right story */
 main  .main-right .story{
     height:223px;
@@ -264,7 +278,7 @@ main  .main-right .right-wrap .story-in{
 }
 main  .main-right .right-wrap .story-in .story-play .story-img{
     float:left;padding:2px; 
-    border:2px solid #aaa;border-radius:50%;
+    border:2px solid #ccc;border-radius:50%;
 }
 main  .main-right .right-wrap .story-in .story-play .story-img a{
     display:block;width:30px;height:30px;
