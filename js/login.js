@@ -7,7 +7,7 @@ let button = document.querySelector('.btn');
 let htmlA = document.querySelector('html');
 
 
-htmlA.addEventListener('keyup',function(){
+divA.addEventListener('keyup',function(){
 let idB = idA.value.length; //1이상
 let pwB = pwA.value.length;  // 1이상
 
